@@ -1,18 +1,3 @@
--------------------------------------------------
-Welcome to the host named <%= hostname %>
-<%= operatingsystem %> <%= operatingsystemrelease %> <% if has_variable?("architecture") then %><%= architecture %><% end %>
--------------------------------------------------
-Puppet: <%= puppetversion %>
-Facter: <%= facterversion %>
-
-FQDN: <%= fqdn %>
-IP:   <%= ipaddress %>
-
-<% if has_variable?("processor0") then -%>
-Processor: <%= processor0 %>
-<% end -%>
-<% if has_variable?("memorysize") then -%>
-Memory:    <%= memorysize %>
-<% end -%>
-
--------------------------------------------------
+Welcome to <%= @fqdn %> - <%= @manufacturer %> <%= @architecture %> RAM:<%= @memorysize %> 
+CPU(s): <%= @processorcount %>x <%= @processor0 %>
+managed by Puppet <%= @puppetversion %> on <%= @operatingsystem %> <%= @operatingsystemrelease %> <%= @kernelrelease %>

@@ -1,3 +1,0 @@
-Welcome to <%= @fqdn %> - <%= @manufacturer %> <%= @architecture %> RAM:<%= @memorysize %> 
-CPU(s): <%= @processorcount %>x <%= @processor0 %>
-managed by Puppet <%= @puppetversion %> on <%= @operatingsystem %> <%= @operatingsystemrelease %> <%= @kernelrelease %>
