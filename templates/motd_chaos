@@ -1,0 +1,10 @@
+                                       *  Troubles?  Questions?  *
+           CRBS NOC                    *    noc@crbs.ucsd.edu    *
+University of California, San Diego    *    +1 (858)246-0305     *
+                                       *  support.crbs.ucsd.edu  *
+
+***   Welcome to <%= fqdn %> - <%= manufacturer %> <%= architecture %> RAM:<%= memorysize %> 
+***   Notice: managed by Puppet <%= puppetversion %> on <%= operatingsystem %> <%=operatingsystemrelease%>
+***   Using network operations CHAOS policies...
+
+# $Id: motd_chaos 2173 2010-07-02 20:43:49Z bcarl $

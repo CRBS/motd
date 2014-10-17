@@ -1,0 +1,12 @@
+             National Center for Microscopy and Imaging Research
+                               at San Diego
+                           An NIH Research Center
+                                Login Node
+                          support.crbs.ucsd.edu
+                           wiki.ncmir.ucsd.edu
+                          
+Welcome to <%= fqdn %>
+<%= manufacturer %> <%= architecture %> RAM:<%= memorysize %> 
+CPU(s): <%= processorcount %>x <%= processor0 %>
+Managed by Puppet <%= puppetversion %> on <%= operatingsystem %> <%= operatingsystemrelease %> <%= kernelrelease %>
+   
